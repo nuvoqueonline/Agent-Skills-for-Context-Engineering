@@ -29,6 +29,7 @@ These skills cover the patterns and structures for building effective agent syst
 | [multi-agent-patterns](skills/multi-agent-patterns/) | Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures |
 | [memory-systems](skills/memory-systems/) | Design short-term, long-term, and graph-based memory architectures |
 | [tool-design](skills/tool-design/) | Build tools that agents can use effectively |
+| [filesystem-context](skills/filesystem-context/) | **NEW** Use filesystems for dynamic context discovery, tool output offloading, and plan persistence |
 
 ### Operational Skills
 
@@ -109,7 +110,7 @@ Option B - Direct install via command:
 | Plugin | Skills Included |
 |--------|-----------------|
 | `context-engineering-fundamentals` | context-fundamentals, context-degradation, context-compression, context-optimization |
-| `agent-architecture` | multi-agent-patterns, memory-systems, tool-design |
+| `agent-architecture` | multi-agent-patterns, memory-systems, tool-design, filesystem-context |
 | `agent-evaluation` | evaluation, advanced-evaluation |
 | `agent-development` | project-development |
 | `cognitive-architecture` | bdi-mental-states |
@@ -125,6 +126,7 @@ Option B - Direct install via command:
 | `multi-agent-patterns` | "design multi-agent system", "implement supervisor pattern" |
 | `memory-systems` | "implement agent memory", "build knowledge graph", "track entities" |
 | `tool-design` | "design agent tools", "reduce tool complexity", "implement MCP tools" |
+| `filesystem-context` | "offload context to files", "dynamic context discovery", "agent scratch pad", "file-based context" |
 | `evaluation` | "evaluate agent performance", "build test framework", "measure quality" |
 | `advanced-evaluation` | "implement LLM-as-judge", "compare model outputs", "mitigate bias" |
 | `project-development` | "start LLM project", "design batch pipeline", "evaluate task-model fit" |
